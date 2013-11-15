@@ -72,6 +72,6 @@ div#qlist-wrapper .question-summary, div#questions .question-summary {
   width: 100% !important
 }
 
-div#qlist-wrapper .question-summary .started 
+div#qlist-wrapper .question-summary .started {
   float: right !important;
 }
