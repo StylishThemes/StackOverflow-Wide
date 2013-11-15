@@ -1,0 +1,77 @@
+/**
+ * StackOverflow: Wide
+ * Author: ddavison
+ * Website: http://github.com/ddavison/stackoverflow-wide
+ * Description:
+ *   This style simply utilizes the real estate of Stack Overflow better.
+ */
+
+div#header {
+  width: 90% !important;
+}
+
+div#header div#hmenus {
+  width: 100% !important;
+}
+
+/** Content Specific \/ **/
+div#content {
+  width: 90% !important; 
+}
+
+div#content div#question-header {
+  width: 100% !important;
+}
+
+div#content div#mainbar {
+  width: 85% !important;
+}
+
+/** Question specific **/
+div.question, div.question table {
+  width: 100% !important;
+}
+div.post-text {
+  width: 100% !important;
+}
+
+/** Answer specific **/
+div#answers, div#questions {
+  width: 100% !important;
+}
+
+div#answers div.answer {
+  width: 100% !important;
+}
+
+/** Post your answer section **/
+div#answers form#post-form div.post-editor {
+  width: 100% !important;
+}
+
+div#answers div, div#answers table {
+  width: 100% !important;
+}
+
+/** div#tabs gets messed up. give some border-bottom. **/
+div#answers div#tabs {
+  border-bottom: 1px solid #000 !important;
+  margin-bottom: 10px !important;
+}
+
+div#answers div#tabs > a {
+  border: none !important;
+}
+
+div#answers div#tabs > a.youarehere {
+  
+}
+
+/** Front page (recommended, new, etc) **/
+div#qlist-wrapper .question-summary, div#questions .question-summary {
+  width: 100% !important
+}
+
+div#qlist-wrapper .question-summary .started 
+  float: right !important;
+}
