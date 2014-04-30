@@ -1,4 +1,4 @@
-@-moz-document regexp("^https?://stackoverflow\\.com.*"), domain("stackexchange.com") {
+@-moz-document regexp("^(?:http(?:s)?:\/\/)?(?:[^\.]+\.)?(stackoverflow|stackexchange)\.com(?:/.*)?") {
 /**
  * StackOverflow: Wide
  * Author: ddavison
