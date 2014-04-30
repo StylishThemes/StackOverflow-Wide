@@ -1,3 +1,4 @@
+@-moz-document regexp("^https?://stackoverflow\\.com.*"), domain("stackexchange.com") {
 /**
  * StackOverflow: Wide
  * Author: ddavison
