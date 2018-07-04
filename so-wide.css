@@ -11,7 +11,7 @@ div#header {
   width: 95% !important;
 }
 
-div#header div#hmenus {
+div#header div#hmenus, .post-editor, #question-suggestions {
   width: 100% !important;
   max-width: 100%;
 }
