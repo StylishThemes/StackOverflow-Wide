@@ -1,4 +1,4 @@
-@-moz-document regexp("^(?:http(?:s)?:\/\/)?(?:[^\.]+\.)?(stackoverflow|stackexchange)\.com(?:/.*)?") {
+@-moz-document regexp("^(https?://)?([^.]+\.)?(stackoverflow|stackexchange)\.com(/.*)?") {
 /**
  * StackOverflow: Wide
  * Author: ddavison
@@ -11,13 +11,24 @@ div#header {
   width: 95% !important;
 }
 
-div#header div#hmenus {
+div#header div#hmenus  div.container{
   width: 100% !important;
+  max-width: 100%;
+}
+
+div.container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+div.container div#left-sidebar.left-sidebar {
+  width: 8% !important;
 }
 
 /** Content Specific \/ **/
 div#content {
-  width: 95% !important; 
+  width: 95% !important;
+  max-width: 95% !important;
 }
 
 div#content div#question-header {
@@ -25,7 +36,11 @@ div#content div#question-header {
 }
 
 div#content div#mainbar {
-  width: 85% !important;
+  width: 80% !important;
+}
+
+div#content div#sidebar {
+  width: 18% !important;
 }
 
 /** Question specific **/
@@ -50,7 +65,7 @@ div#answers form#post-form div.post-editor {
   width: 100% !important;
 }
 
-div#answers div, div#answers table {
+div#answers table {
   width: 100% !important;
 }
 
@@ -64,10 +79,6 @@ div#answers div#tabs > a {
   border: none !important;
 }
 
-div#answers div#tabs > a.youarehere {
-  
-}
-
 /** Front page (recommended, new, etc) **/
 div#qlist-wrapper .question-summary, div#questions .question-summary {
   width: 100% !important
@@ -75,4 +86,5 @@ div#qlist-wrapper .question-summary, div#questions .question-summary {
 
 div#qlist-wrapper .question-summary .started {
   float: right !important;
+}
 }
