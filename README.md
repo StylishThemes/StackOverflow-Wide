@@ -1,3 +1,5 @@
+**Retired:** no longer maintained.
+
 # StackOverflow-Wide
 A Stylish style for StackOverflow.  
 
